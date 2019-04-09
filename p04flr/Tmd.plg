@@ -1,0 +1,95 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tmd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xuxx\AppData\Local\Temp\RSP6FE5.tmp" with contents
+[
+/nologo /Zp1 /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Tmd.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\PRGM\p04flr\TmdDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\xuxx\AppData\Local\Temp\RSP6FE5.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Tmd.pdb" /debug /machine:I386 /out:"Debug/Tmd.exe" /pdbtype:sept  .\Debug\StdAfx.obj .\Debug\Tmd.obj .\Debug\TmdDlg.obj .\Debug\Tmd.res "
+<h3>Output Window</h3>
+Compiling...
+TmdDlg.cpp
+D:\PRGM\p04flr\TmdDlg.cpp(258) : warning C4305: '*=' : truncation from 'const double' to 'float'
+D:\PRGM\p04flr\TmdDlg.cpp(357) : warning C4305: '+=' : truncation from 'const double' to 'float'
+D:\PRGM\p04flr\TmdDlg.cpp(231) : warning C4101: 'b' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(231) : warning C4101: 'rate' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(231) : warning C4101: 'g' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(195) : warning C4101: 'b1' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(530) : warning C4002: too many actual parameters for macro 'RtlFillMemory'
+D:\PRGM\p04flr\TmdDlg.cpp(409) : warning C4101: 'r' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(407) : warning C4101: 'b' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(409) : warning C4101: 'x' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(409) : warning C4101: 'y' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(409) : warning C4101: 'z' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(880) : warning C4101: 'k1' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(880) : warning C4101: 'i0' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(880) : warning C4101: 'wk' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(880) : warning C4101: 'j0' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1235) : warning C4101: 'f' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1233) : warning C4101: 'st' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1236) : warning C4101: 'l' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1237) : warning C4101: 'fp' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1259) : warning C4101: 'b2' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1261) : warning C4101: 'sum' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1257) : warning C4101: 'k1' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1261) : warning C4101: 'mbx' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1257) : warning C4101: 'i1' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1257) : warning C4101: 'wk' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1257) : warning C4101: 'j1' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1256) : warning C4101: 'lcnt' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1419) : warning C4101: 'r' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1416) : warning C4101: 'k0' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1416) : warning C4101: 'k1' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1415) : warning C4101: 'cnt' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1419) : warning C4101: 'x' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1419) : warning C4101: 'y' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1419) : warning C4101: 'z' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1416) : warning C4101: 'i0' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1416) : warning C4101: 'j' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1416) : warning C4101: 'i1' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1416) : warning C4101: 'wk' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1416) : warning C4101: 'j0' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1416) : warning C4101: 'j1' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1415) : warning C4101: 'lcnt' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1491) : warning C4101: 'k0' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1487) : warning C4101: 'k1' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1486) : warning C4101: 'isum' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1488) : warning C4101: 'fi' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1487) : warning C4101: 'i0' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1486) : warning C4101: 'jsum' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1487) : warning C4101: 'kcnt' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1487) : warning C4101: 'wk' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1487) : warning C4101: 'j0' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1488) : warning C4101: 'b1' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1543) : warning C4101: 'i' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1543) : warning C4101: 'j' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1833) : warning C4305: '-=' : truncation from 'const double' to 'float'
+D:\PRGM\p04flr\TmdDlg.cpp(1716) : warning C4101: 'st' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1987) : warning C4101: 'k0' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1983) : warning C4101: 'k1' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1982) : warning C4101: 'isum' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1988) : warning C4101: 'st' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1984) : warning C4101: 'fi' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1983) : warning C4101: 'i0' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1982) : warning C4101: 'jsum' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1983) : warning C4101: 'kcnt' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1983) : warning C4101: 'wk' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1983) : warning C4101: 'j0' : unreferenced local variable
+D:\PRGM\p04flr\TmdDlg.cpp(1984) : warning C4101: 'b1' : unreferenced local variable
+Linking...
+libcmtd.lib(crt0init.obj) : warning LNK4098: defaultlib "libc.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+Tmd.exe - 0 error(s), 68 warning(s)
+</pre>
+</body>
+</html>
